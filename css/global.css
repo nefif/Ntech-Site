@@ -1,0 +1,54 @@
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+.title {
+    text-transform: uppercase;
+    color: var(--primary);
+  }
+  
+.subtitle {
+    color: var(--secondary);
+    font-weight: 400;
+  }
+
+.block {
+   margin-bottom: 120px;
+  }
+
+.button {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.button-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.button-primary:hover {
+    background-color: var(--primary_dark);
+    border-color: var(--primary_dark);
+    color: var(--secondary);    
+}
+
+.button-secundary {
+    border-color: var(--primary);
+    color: var(--primary);   
+}
+
+.button-secundary:hover {
+    background-color: var(--primary_dark);
+    border-color: var(--primary_dark); 
+    color: var(--secondary);  
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary)
+}
